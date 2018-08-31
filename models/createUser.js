@@ -34,24 +34,6 @@ const createUserSchema = mongoose.Schema({
 
 
 
-//createUserSchema.pre('save', function(next){
-//    var self = this;
-//      createUser.find(self.user, function(err,user){
-//          if(err){
-//    console.log(err)
-//  }else if(user.LGA=="JN"){
-//        user.MAT == "JN"+MAT
-//      }else next()
-//    })
-//        
-//    })
-
-
-
-//=============================================================================
-/**
- * Export RolesUsersModel
- */
 //=============================================================================
 module.exports = mongoose.model('createUser', createUserSchema);
 //=============================================================================
